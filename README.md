@@ -13,6 +13,8 @@ Just take the file en.json from the locales folder and translate all instances o
 Please keep the "" and the comma at the end of each line
 It would be great if you could upload your new language into the locales folder into this repository, so that the next Ghost user dealing with this issue will have it ready.
 
+Currently I have created a Polish version saved as pl.json.
+
 Example:
 
 English version en.json
