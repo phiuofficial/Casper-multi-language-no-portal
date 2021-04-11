@@ -1,6 +1,6 @@
 {
-    "name": "casper",
-    "description": "A clean, minimal default theme for the Ghost publishing platform",
+    "name": "casper multi-language",
+    "description": "Adaptation of the Ghost Casper theme to support additional languages without big code efforts",
     "demo": "https://demo.ghost.io",
     "version": "4.0.4",
     "engines": {
@@ -23,8 +23,8 @@
         "postship": "git fetch && gulp release"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
+        "name": "Ghost Foundation, adapted by Phiu",
+        "email": "phiu@phiu.com",
         "url": "https://ghost.org/"
     },
     "gpm": {
