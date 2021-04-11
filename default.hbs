@@ -51,11 +51,16 @@
                     {{/if}}
                 </div>
 
+        {{!-- Here you can remove the Subscribe and Portal parts by commenting below until the next comment 
+
                 {{#unless @member}}
-                    <a class="gh-head-button" href="#/portal/signup">Subscribe</a>
+                    <a class="gh-head-button" href="#/portal/signup">{{t "Subscribe"}}</a>
                 {{else}}
-                    <a class="gh-head-button" href="#/portal/account">Account</a>
+                    <a class="gh-head-button" href="#/portal/account">{{t "Account"}}</a>
                 {{/unless}}
+
+          To restore Subscribe and Portal, just uncomment the part above --}}
+            
             </div>
         </nav>
     </header>
