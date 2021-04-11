@@ -4,6 +4,8 @@ The main purpose of this version is to enable multi-language text across Casper 
 
 I decided to develop this version of Casper for all non English creators, as it's weird to write all articles in a language and then having other areas of the website in English. This will open Ghost to a much wider public.
 
+The subscription area and Portal are also disabled, see below for the reasons behind and the how-to.
+
 &nbsp;
 
 # How to add a translation
@@ -20,12 +22,15 @@ English version en.json
     "Enter your email": "Enter your email",
 ```
 
-Italian translation (you have to Save as... "it.json" - or if you use another language, use the code for that language, e.g. "fr.json" for a French translation or "de.json" for a German one etc...)
+Italian translation (you have to Save as... "it.json" - or if you use another language, use the code for that language, e.g. "fr.json" for a French translation or "de.json" for a German one etc...- target directory is called "locales")
 ```
     "A collection of % posts": "Una collezione di % post",
     "Back": "Indietro",
     "Enter your email": "Inserisci la tua email",
 ```
+
+Once you are done with the translation, select your Casper folder including these modified files and save the whole folder as a .zip file.
+Then go in the Ghost settings and upload this zip file in the Upload Theme section. Activate it.
 
 Finally, you have to set the language of your site to "it" in the General settings area of your Ghost control panel. Or "fr" in case of French language, "de" in case of German etc...
 
